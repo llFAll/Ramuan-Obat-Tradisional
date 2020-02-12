@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.obat9">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RPGsifilis"></activity>
+        <activity android:name=".RPGtrikomoniasis" />
+        <activity android:name=".RPGkankerserviks" />
+        <activity android:name=".RPGlupus" />
+        <activity android:name=".RPGkutilkelamin" />
+        <activity android:name=".RPGkeputihan" />
+        <activity android:name=".RPGgonore" />
+        <activity android:name=".RPGfibroid" />
+        <activity android:name=".RPGendometriosis" />
+        <activity android:name=".RPGchlamydia" />
+        <activity android:name=".RPPERtbc" />
+        <activity android:name=".RPPERsariawan" />
+        <activity android:name=".RPPERamandel" />
+        <activity android:name=".RPPERpleuritis" />
+        <activity android:name=".RPPERgondongan" />
+        <activity android:name=".RPPERflu" />
+        <activity android:name=".RPPERdifteri" />
+        <activity android:name=".RPPERbronkitis" />
+        <activity android:name=".RPPERbatuk" />
+        <activity android:name=".RPPERasma" />
+        <activity android:name=".RPPENwasir" />
+        <activity android:name=".RPPENsembelit" />
+        <activity android:name=".RPPENususbuntu" />
+        <activity android:name=".RPPENmaag" />
+        <activity android:name=".RPPENinfeksisalurankemih" />
+        <activity android:name=".RPPENhepatitis" />
+        <activity android:name=".RPPENdisentri" />
+        <activity android:name=".RPPENdiare" />
+        <activity android:name=".RPPENcacingan" />
+        <activity android:name=".RPPENkandungkemih" />
+        <activity android:name=".RPKpanu" />
+        <activity android:name=".RPKlukabakar" />
+        <activity android:name=".RPKkusta" />
+        <activity android:name=".RPKkutil" />
+        <activity android:name=".RPKkurap" />
+        <activity android:name=".RPKkoreng" />
+        <activity android:name=".RPKcampak" />
+        <activity android:name=".RPKcacarair" />
+        <activity android:name=".RPKbisul" />
+        <activity android:name=".RPKalergi" />
+        <activity android:name=".Ttifus" />
+        <activity android:name=".Ttdt" />
+        <activity android:name=".Tstroke" />
+        <activity android:name=".Trematik" />
+        <activity android:name=".Tradangmata" />
+        <activity android:name=".Tmalaria" />
+        <activity android:name=".Tleukimia" />
+        <activity android:name=".Tdiabetes" />
+        <activity android:name=".Tbatuginjal" />
+        <activity android:name=".Tanemia" />
+        <activity android:name=".Nkencur" />
+        <activity android:name=".Ngendola" />
+        <activity android:name=".Nbrotowali" />
+        <activity android:name=".Nsambiloto" />
+        <activity android:name=".Ngandarusa" />
+        <activity android:name=".Ndaunsirih" />
+        <activity android:name=".Njahe" />
+        <activity android:name=".Ntemulawak" />
+        <activity android:name=".Nlengkuas" />
+        <activity android:name=".Nkunyit" />
+        <activity   android:name=".HasilSkoring"
+                    android:clearTaskOnLaunch="true">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        <intent-filter>
+            <action android:name="android.intent.action.DETAIL" />
+
+            <category android:name="android.intent.category.DETAIL" />
+        </intent-filter>
+        </activity>
+        <activity   android:name=".KuisPilihanGanda"
+                    android:clearTaskOnLaunch="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.DETAIL" />
+
+                <category android:name="android.intent.category.DETAIL" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Nobat" />
+        <activity android:name=".Tutorial" />
+        <activity   android:name=".Kuis"
+                    android:clearTaskOnLaunch="true"/>
+        <activity android:name=".Tentang" />
+        <activity android:name=".Bantuan" />
+        <activity android:name=".RPDtifus" />
+        <activity android:name=".RPDdarahtinggi" />
+        <activity android:name=".RPDstroke" />
+        <activity android:name=".RPDrematik" />
+        <activity android:name=".RPDradangmata" />
+        <activity android:name=".RPDmalaria" />
+        <activity android:name=".RPDleuki" />
+        <activity android:name=".RPDdiabetes" />
+        <activity android:name=".RPDginjal" />
+        <activity android:name=".RPDanemia" />
+        <activity android:name=".RPganguankewanitaan" />
+        <activity android:name=".RPpernafasan" />
+        <activity android:name=".RPpencernaan" />
+        <activity android:name=".RPkulit" />
+        <activity android:name=".RPdalam" />
+        <activity android:name=".Rpenyakit" />
+        <activity android:name=".PGWtrikomoniasis" />
+        <activity android:name=".PGWsifilis" />
+        <activity android:name=".PGWms" />
+        <activity android:name=".PGWlupus" />
+        <activity android:name=".PGWkutilkelamin" />
+        <activity android:name=".PGWkeputihan" />
+        <activity android:name=".PGWgonore" />
+        <activity android:name=".PGWfibroidrahim" />
+        <activity android:name=".PGWendometriosis" />
+        <activity android:name=".PGWchlamydia" />
+        <activity android:name=".PAPERtbc" />
+        <activity android:name=".PAPERsariawan" />
+        <activity android:name=".PAPERamandel" />
+        <activity android:name=".PAPERpleuritis" />
+        <activity android:name=".PAPERgondongan" />
+        <activity android:name=".PAPERflu" />
+        <activity android:name=".PAPERdifteri" />
+        <activity android:name=".PAPERbrokitis" />
+        <activity android:name=".PAPERbatuk" />
+        <activity android:name=".PAPERasma" />
+        <activity android:name=".PAPENwasir" />
+        <activity android:name=".PAPENsembelit" />
+        <activity android:name=".PAPENradangususbuntu" />
+        <activity android:name=".PAPENmaag" />
+        <activity android:name=".PAPENinfeksisalurankemih" />
+        <activity android:name=".PAPENhepatitis" />
+        <activity android:name=".PAPENdisentri" />
+        <activity android:name=".PAPENdiare" />
+        <activity android:name=".PAPENcacingan" />
+        <activity android:name=".PAPENbatukandungkemih" />
+        <activity android:name=".PKpanu" />
+        <activity android:name=".PKlukabakar" />
+        <activity android:name=".PKkusta" />
+        <activity android:name=".PKkutil" />
+        <activity android:name=".PKkurap" />
+        <activity android:name=".PKkoreng" />
+        <activity android:name=".PKcampak" />
+        <activity android:name=".PKcacarair" />
+        <activity android:name=".PKbisul" />
+        <activity android:name=".PKalergi" />
+        <activity android:name=".Pganguankewanitaan" />
+        <activity android:name=".Ppernafasan" />
+        <activity android:name=".Ppencernaan" />
+        <activity android:name=".Pkulit" />
+        <activity android:name=".PDleuki" />
+        <activity android:name=".Jpenyakit" />
+        <activity android:name=".PDtifus" />
+        <activity android:name=".PDdarahtinggi" />
+        <activity android:name=".PDstroke" />
+        <activity android:name=".PDrematik" />
+        <activity android:name=".PDradangmata" />
+        <activity android:name=".PDmalaria" />
+        <activity android:name=".PDdiabetes" />
+        <activity android:name=".PDginjal" />
+        <activity android:name=".PDanemia" />
+        <activity android:name=".Pdalam" />
+        <activity
+            android:name=".Splashscreen"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
